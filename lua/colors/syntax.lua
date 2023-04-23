@@ -1,39 +1,39 @@
 local palette = require('colors.futuristic')
 -- Define syntax groups
 local syntax = {
-  Comment = { fg = '#bde0fe', style = 'italic' },
-  Constant = { fg = '#fe8565' },
-  String = { fg = '#02d8e9' },
-  Character = { fg = '#02d8e9' },
-  Number = { fg = '#02d8e9' },
-  Boolean = { fg = '#02d8e9' },
-  Float = { fg = '#02d8e9' },
-  Identifier = { fg = '#b97bff' },
-  Function = { fg = '#ffeeb2' },
-  Statement = { fg = '#ffeeb2' },
-  Conditional = { fg = '#fda2ff' },
-  Repeat = { fg = '#fda2ff' },
-  Label = { fg = '#fda2ff' },
-  Keyword = { fg = '#fda2ff' },
-  Exception = { fg = '#fe4970' },
-  Operator = { fg = '#02d8e9' },
-  PreProc = { fg = '#ffeeb2' },
-  Include = { fg = '#ffeeb2' },
-  Define = { fg = '#ffeeb2' },
-  Macro = { fg = '#ffeeb2' },
-  PreCondit = { fg = '#ffeeb2' },
-  Type = { fg = '#fda2ff' },
-  StorageClass = { fg = '#fda2ff' },
-  Structure = { fg = '#fda2ff' },
-  Typedef = { fg = '#fda2ff' },
-  Special = { fg = '#ffeeb2' },
-  SpecialChar = { fg = '#02d8e9' },
-  Tag = { fg = '#fe4970' },
-  Delimiter = { fg = '#ffeeb2' },
-  SpecialComment = { fg = '#2a0059', style = 'italic' },
-  Underlined = { fg = '#ffeeb2', style = 'underline' },
+  Comment = { fg = '#b7c1de', style = 'italic' },
+  Constant = { fg = '#ff00a0' },
+  String = { fg = '#65dc98' },
+  Character = { fg = '#c4ffff' },
+  Number = { fg = '#c4ffff' },
+  Boolean = { fg = '#c4ffff' },
+  Float = { fg = '#c4ffff' },
+  Identifier = { fg = '#ffeeb2' },
+  Function = { fg = '#cbb2fe' },
+  Statement = { fg = '#fe00fe' },
+  Conditional = { fg = '#00b3fe' },
+  Repeat = { fg = '#ff00a0' },
+  Label = { fg = '#7a04eb' },
+  Keyword = { fg = '#fe75fe' },
+  Exception = { fg = '#ff6e27' },
+  Operator = { fg = '#73fffe' },
+  PreProc = { fg = '#ff6e27' },
+  Include = { fg = '#73fffe' },
+  Define = { fg = '#7700a6' },
+  Macro = { fg = '#ff6e27' },
+  PreCondit = { fg = '#73fffe' },
+  Type = { fg = '#b97bff' },
+  StorageClass = { fg = '#b97bff' },
+  Structure = { fg = '#b97bff' },
+  Typedef = { fg = '#b97bff' },
+  Special = { fg = '#73fffe' },
+  SpecialChar = { fg = '#73fffe' },
+  Tag = { fg = '#73fffe' },
+  Delimiter = { fg = '#73fffe' },
+  SpecialComment = { fg = '#ffccdc', style = 'italic' },
+  Underlined = { fg = '#ff6e27', style = 'underline' },
   NonText = { bg = '#22192c' },
-  Ignore = { fg = '#ffeeb2' }
+  Ignore = { fg = '#120458' }
 }
 
 vim.api.nvim_set_var('terminal_color_0', '#22192c')
@@ -78,4 +78,4 @@ vim.cmd('highlight PmenuSel guibg=#e0aaff guifg=#4d194d')
 vim.cmd('highlight TelescopeBorder guifg=#ffeeb2')
 vim.cmd('highlight TelescopeNormal guibg=#22192c guifg=#02d8e9')
 vim.cmd('highlight TelescopeSelection guibg=#22192c guifg=#ffeeb2')
-
+vim.cmd('highlight CursorLineNr guifg=#ff00a0 guibg=#22192c')
