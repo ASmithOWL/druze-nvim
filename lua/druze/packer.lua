@@ -92,6 +92,7 @@ return require('packer').startup(function(use)
 
   use {"ryanoasis/vim-devicons"}
 
+  use { "~/projects/druze-jumper" }
 
 end)
 

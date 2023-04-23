@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/ans/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["druze-jumper"] = {
+    loaded = true,
+    path = "/home/ans/.local/share/nvim/site/pack/packer/start/druze-jumper",
+    url = "/home/ans/projects/druze-jumper"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/ans/.local/share/nvim/site/pack/packer/start/friendly-snippets",

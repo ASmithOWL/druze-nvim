@@ -1,7 +1,9 @@
+-- Load and apply the colorscheme on VimEnter event
+vim.cmd([[autocmd VimEnter * lua require('colors/autoload').load_colorscheme()]])
+
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
-vim.opt.relativenumber = true
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
