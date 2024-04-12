@@ -20,7 +20,6 @@ local syntax = {
   PreProc = { fg = '#ff6e27' },
   Include = { fg = '#73fffe' },
   Define = { fg = '#7700a6' },
-  Macro = { fg = '#ff6e27' },
   PreCondit = { fg = '#73fffe' },
   Type = { fg = '#b97bff' },
   StorageClass = { fg = '#b97bff' },

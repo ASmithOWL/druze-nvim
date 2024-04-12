@@ -82,17 +82,15 @@ return require('packer').startup(function(use)
 
   use "lukas-reineke/indent-blankline.nvim"
 
-  use {
-      "puremourning/vimspector",
-      cmd = { "VimspectorInstall", "VimspectorUpdate" }, fn = { "vimspector#Launch()", "vimspector#ToggleBreakpoint", "vimspector#Continue" },
-      config = function()
-        require("config.vimspector").setup()
-     end,
-  }
+  use 'mfussenegger/nvim-dap'
 
   use {"ryanoasis/vim-devicons"}
 
   use { "~/projects/druze-jumper" }
+
+  use { "mracos/mermaid.vim" }
+  
+  use { "~/projects/nvim-ai" }
 
 end)
 

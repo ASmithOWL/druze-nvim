@@ -1,0 +1,22 @@
+
+
+{
+  rust = { {
+      cwd = "${workspaceFolder}",
+      name = "Launch",
+      program = <function 1>,
+      request = "launch",
+      sourceLanguages = { "rust" },
+      stopOnEntry = false,
+      type = "lldb"
+    }, {
+      args = <function 2>,
+      cwd = "${workspaceFolder}",
+      name = "Launch Test",
+      program = <function 3>,
+      request = "launch",
+      sourceLanguages = { "rust" },
+      stopOnEntry = false,
+      type = "lldb"
+    } }
+}
